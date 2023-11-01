@@ -3,3 +3,5 @@ pre-commit==2.15.0
 pytest==6.2.5
 pytest-responses==0.5.0
 responses==0.13.4
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
