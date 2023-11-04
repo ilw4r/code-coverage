@@ -3,3 +3,5 @@ pre-commit==2.15.0
 pytest==6.2.5
 pytest-responses==0.5.0
 responses==0.13.4
+redis>=4.3.6 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
