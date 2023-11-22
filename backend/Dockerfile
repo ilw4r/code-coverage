@@ -1,4 +1,4 @@
-FROM python:3.9.7-slim
+FROM python:slim-bookworm
 
 ADD tools /src/tools
 ADD backend /src/backend
