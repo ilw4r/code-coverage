@@ -5,3 +5,6 @@ pytz==2021.1
 raven==6.10.0
 structlog==21.1.0
 taskcluster==44.2.2
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
